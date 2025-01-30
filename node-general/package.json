@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "format": "prettier --ignore-unknown --write src/**/*.ts tests/**/*.ts",
+    "lint": "eslint src/ tests/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
