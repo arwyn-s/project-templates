@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "esModuleInterop": true,
+    "declaration": false,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["esnext", "es2022", "es2020", "es2018"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noResolve": false,
+    "pretty": true,
+    "strict": true,
+    "strictNullChecks": true,
+    // "skipLibCheck": false,
+    //"noImplicitAny": true,
+    "target": "esnext",
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    // "isolatedModules": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*.ts", "tests/**/*.ts"],
+  "ts-node": {
+    "transpileOnly": true
+  }
+}
+
